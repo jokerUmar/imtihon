@@ -1,0 +1,450 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins';
+}
+
+header{
+  z-index: 99;
+  position: fixed;
+  background-color: #F5F5F5;
+  width: 100%;
+  top: -10px;
+}
+
+.container{
+  width: 1340px;
+  margin: 0 auto;
+}
+
+nav>.nav-fixed>img{
+  position: relative;
+  top: 50px;
+  left: 10px;
+  width: 106px;
+  height: 38px;
+}
+
+nav{
+  margin: 0 auto;
+  display: flex;
+ 
+}
+
+
+.nav-fixed{
+ width: 1340px;
+ z-index: 99;
+}
+
+nav>.nav-fixed>ul{
+  margin-top: 20px;
+  margin-left: 253px;
+  height: 30px;
+}
+
+nav>.nav-fixed>ul>li, nav>.nav-fixed>ul>span>li {
+  display: inline-block;
+  margin-left: 25px ;
+}
+
+nav>.nav-fixed>ul>li>a, nav>.nav-fixed>ul>span>li>a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+nav>.nav-fixed>span{
+display: inline-block;
+margin-left: 10px;
+}
+
+.navbar-link{
+  display: inline-block;
+  margin-left: 1050px;
+  border: solid 1px;
+  position: relative;
+  top: -45px;
+}
+
+.navbar-link>a{
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  font-size: 24px;
+  padding: 17px 57px;
+}
+
+main{
+  margin : 0 auto;
+  margin-top: 215px;
+}
+
+.main-flex{
+  display: flex;
+}
+
+.main-content_one{
+  position: relative;
+}
+
+.main-content_one>h1{
+  margin-bottom: 20px;
+  width: 386px;
+  height: 240px;
+  font-size: 64px;
+}
+
+.main-content_one>img{
+position: absolute;
+top: 122px;
+left: 413px;
+}
+
+.main-content_one>p{
+  margin-top: 60px;
+  color: #8F95A5;
+  width: 602px;
+  height: 108px;  
+  line-height: 36px;
+  font-size: 24px;
+}
+
+.main-content_one>a{
+  border-radius: 15px;
+  margin-top: 61px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-size: 36px;
+  background-color: #263238;
+  padding: 32px 117px;
+}
+
+.main-content_two>img{
+  margin-top: -55px;
+  margin-left: 45px;
+}
+
+.section-one-h1{
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 147px;
+  margin-bottom: 96px;
+}
+
+.block-content{
+background-color: #F5F5F5;
+width: 435px;
+height: 894px; 
+padding: 35px 23px 92px 23px;
+}
+
+.block-data{
+  margin: 40px 22px 36px 20px;
+}
+
+.block-data>h2{
+  margin-bottom: 5px;    
+  font-weight: 600;
+  font-size: 30px;
+
+}
+
+.block-data>p{
+  line-height: 24px;
+  color: #8F95A5;
+  margin-bottom: 36px; 
+}
+ 
+.block-link{
+  display: inline-block;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 17px 63px;
+  margin-left: 19px;
+}
+
+.section-one-flexed{
+  display: flex;
+}
+
+.column-content{
+  height: 531px;
+}
+
+.block-two{
+  margin-left: 18px;
+}
+
+.block-two-col_card{
+  width: 434px;
+  margin-right: 18px;
+}
+
+.column-img{
+  position: relative;
+  top: 0;
+  left: 122px;
+}
+
+.column-data-position{
+  position: relative;
+  top: -100px;
+}
+
+.block-two-column{
+  display: flex;
+}
+
+.block-two-row_card{
+  display: flex;
+  background-color: #F5F5F5;
+  width:885px; 
+  height: 343px;
+  margin-top: 18px;
+}
+
+.row-content_one{
+  margin-left: 48px;
+  margin-top: 43px;
+}
+
+.row-content_two{
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.column-text{
+  width: 360px;
+}
+
+
+.block-link1{
+  display: inline-block;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 17px 63px;
+}
+
+.section-two>.container{
+  display: flex;
+  margin-top: 252px;
+}
+
+.section-two_content{
+  margin: 0 auto;
+}
+.section-two_content>h1{
+font-weight: 600;
+font-size: 48px;
+margin-bottom: 23px;
+}
+
+.section-two_content>img{
+  margin-left: 20px;
+}
+
+.section-two_content>span{
+  display: flex;
+}
+
+.section-two_content>p{
+  width: 635px;
+  height: 240px;
+  color: #8F95A5;
+  font-size: 20px;
+  line-height: 30px;
+  margin-right: 206px;
+}
+
+.section-two_content>span>b{
+  font-size: 48px;
+  margin-right: 163px;
+}
+
+
+.section-two_content>span>p{
+  margin-left: 140px;
+}
+
+.text-surish{
+  position: relative;
+}
+
+.text-one{
+position: absolute;
+top: 0;
+left: -120px;
+}
+
+
+.text-two{
+  position: absolute;
+  top: 0;
+  left: 100px;
+}
+
+.text-three{
+  position: absolute;
+  top: 0;
+  left: 280px;
+}
+
+.section-three-heading{
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  margin-top: 222px;
+  margin-bottom: 82px;
+
+}
+
+.section-three{
+  margin-left: 100px;
+}
+
+
+.section-three_flex{
+display: flex;
+align-items: center;
+margin-left:-100px;
+
+}
+
+.section-three_card{
+  margin-left: 55px;
+}
+
+
+.three-data>h2{
+font-size: 30px;
+font-weight: 600;
+color: #263238;
+}
+
+/* magin botom yozish kerak yangi classga */
+
+.three-data{
+ margin-top: 34px;
+}
+
+.three-data>p{
+font-size: 20px;
+color: #8F95A5;
+width: 340px;
+line-height: 30px;
+}
+
+.cost{
+  display: inline-block;
+padding-left:  18px ;
+padding-right:  24px ;
+background-color: #EEEEEE;
+margin-top: 36px;
+font-size: 18px;
+}
+
+
+.three-position{
+  position: relative;
+  top: -25px;
+}
+
+.three-width>p{
+  width: 500px;   
+}
+.cost-margin{
+  display: inline-block;
+  position: relative;
+  top: 20px;
+}
+
+.cost>b{
+  font-size: 30px;
+}
+
+.section-four{
+  margin-top: 257px;
+  margin-left: 60px;
+}
+
+
+.section-four_flex{
+  display: flex;
+}
+
+.section-four_data{
+  margin-left: 143px;
+
+}
+
+.section-four_data>h1{
+  font-size: 48px;
+  font-weight: 600;
+  margin-top: 23px;
+  margin-bottom: 37px;
+}
+
+.section-four_data>p{
+  color: #8F95A5;
+  width: 706px;
+  margin-bottom: 52px;
+  
+}
+
+
+
+.forma>input{
+  display: inline-block;
+  color: #8F95A5;
+  width: 450px;
+  height: 80px;
+  padding-left:33px ;
+}
+
+.subscribe{
+  display: inline-block;
+  margin-left: 12px;
+  background-color:black;
+  color: white;
+  padding: 25px 81px;
+  border-radius: 10px;
+
+}
+
+.line{
+  margin-top: 175px;
+  width: 1338px;
+  height: 1px;
+  background-color: black;
+  margin-bottom: 30px;
+}
+.footer-flex{
+  display: flex;
+  margin-left: 20px;
+}
+
+.footer-list>ul{
+  margin-top: 10px;
+  margin-left: 607px;
+  display: flex;
+}
+
+.footer-list>ul>li{
+  margin-left: 25px;
+  color: #8F95A5;
+}
+
+.footer-list>ul>li>a{
+  color: #8F95A5;
+  text-decoration: none;
+}
